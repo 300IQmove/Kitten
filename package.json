@@ -1,0 +1,17 @@
+{
+  "name": "kitten",
+  "version": "14.1.0",
+  "description": "status code check bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.7"
+  }
+}
