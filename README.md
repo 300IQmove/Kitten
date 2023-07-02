@@ -22,11 +22,11 @@ Discord Bot for checking custom URL status codes with cute cat pictures
 
 ## Getting Started
 
-Optionally, you can either **(1)** invite an existing bot to one of the servers where you have the "MANAGE_SERVER" permision, or **(2)** create your own copy.
+Optionally, you can either **(1)** invite an existing bot to one of the servers where you have the `Manage Server` permision, or **(2)** create your own copy.
 
 ### 1. Invite an existing bot
 
-Open the link in the browser or click on the [hyperlink](https://discord.com/api/oauth2/authorize?client_id=1124380232267333673&permissions=0&scope=bot%20applications.commands), then select the server to invite the bot to.
+Open the link in the browser or click on the [hyperlink](https://discord.com/api/oauth2/authorize?client_id=1124380232267333673&permissions=0&scope=bot%20applications.commands), then select the server to invite the bot to:
 
 ```
 https://discord.com/api/oauth2/authorize?client_id=1124380232267333673&permissions=0&scope=bot%20applications.commands
@@ -34,35 +34,35 @@ https://discord.com/api/oauth2/authorize?client_id=1124380232267333673&permissio
 
 ### 2. Create a copy of the bot
 
-2.1. Clone the repo
+2.1. Clone the repo:
 
 ```
 git clone https://github.com/300IQmove/Kitten.git
 ```
 
-2.2. Install `Node.js` according to the instructions appropriate for your OS
+2.2. Install `Node.js` according to the instructions appropriate for your OS.
 
-2.3. Install NPM packages in the bot folder
+2.3. Install NPM packages in the bot folder:
 
 ```
 npm install
 ```
 
-2.4. Create an app in the [developers portal](https://discord.com/developers/applications/)
+2.4. Create an app in the [developers portal](https://discord.com/developers/applications/).
 
-2.5. Enter your app `TOKEN` in `.env`
+2.5. Enter your app `TOKEN` in `.env` file:
 
 ```
 TOKEN = "YOUR_TOKEN_HERE"
 ```
 
-2.6. Run the bot with the command from the example below or through the project manager that is convenient for you
+2.6. Run the bot with the command from the example below or through the project manager that is convenient for you:
 
 ```
 node .
 ```
 
-2.7. Upon successful launch, invite link to the server for the bot will appear in the console
+2.7. Upon successful launch, invite link to the server for the bot will appear in the console.
 
 ## Usage
 
@@ -79,7 +79,7 @@ To get the status code of the site, enter in the chat of one of your mutual serv
 ## Privacy
 
 - `bot` and `applications.commands` are the only flags enabled in the invitation link
-- No permissions are required for correct operation. Privileged Gateway Intents
+- No permissions are required for correct operation
 - Privileged gateway intents are disabled by default
 
 ## License

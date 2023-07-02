@@ -19,6 +19,10 @@ module.exports = (client) => {
       "&permissions=0&scope=bot%20applications.commands"
   );
 
+  if (!fs.existsSync("./cache/")) {
+    fs.mkdirSync("./cache/");
+  }
+
   // Clear images cache on startup
   const cachedFiles = readdirSync("./cache/").filter((f) => f.endsWith(".jpg"));
   cachedFiles.forEach((file) => {
