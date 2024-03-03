@@ -7,7 +7,7 @@ Discord Bot for checking custom URL status codes with cute cat pictures
 </p>
 
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/1041637279237672990/1124705519307849858/profilePicture.png"/>
+<img src="https://cdn.discordapp.com/attachments/1041637279237672990/1124705519307849858/profilePicture.png?ex=65f5aa23&is=65e33523&hm=b6f860dc9dc7508c86fcc58c737d63fbf2517f1b6a539f4483100a4c02622951&"/>
 </p>
 
 <p align="center">  
@@ -67,7 +67,7 @@ node .
 ## Usage
 
 <p align="center">
-<img src="https://cdn.discordapp.com/attachments/1041637279237672990/1124823628081537054/rounded-in-photoretrica.png"/>
+<img src="https://cdn.discordapp.com/attachments/1041637279237672990/1124823628081537054/rounded-in-photoretrica.png?ex=65f61823&is=65e3a323&hm=f3722f4ceb9f3a77d1b572e37582bdd38b5bf8150f521b82b07d45d42a70b241&"/>
 </p>
 
 To get the status code of the site, enter in the chat of one of your mutual servers with the bot or in direct messages with it the slash command according to the template:
